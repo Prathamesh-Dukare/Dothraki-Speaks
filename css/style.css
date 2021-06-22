@@ -88,17 +88,146 @@ footer div {
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Media Queries */
 
-@media screen and (min-width:300px) and (max-width:420px) {
+@media(max-width:1124px) {
   #textarea {
-    height: 4em;
-    width: 19.5em;
     display: block;
     box-sizing: border-box;
-    padding: 0.5em;
+    padding: 1.2em 1em;
+    width: 72.35%;
+    /* margin: auto 4em; */
+    outline: none;
+    border: 2px solid #7e7d7d;
     position: relative;
-    left: 3rem;
-    margin: 32px -3px 0px 0px;
-    font-size: large;
+    left: 5em;
+    height: 14vh;
+    margin-top: 2em;
+  }
+
+  #tButton {
+    color: #0000008f;
+    background-color: #99cf99;
+    /* height: 5.5em; */
+    width: 19em;
+    border-radius: 2px;
+    margin: 0 auto;
+    font-weight: 600;
+    margin: 4em 14em;
+    font-size: 22px;
+  }
+
+  #output {
+    display: block;
+    height: 14vh;
+    width: 70.25%;
+    border: 2px solid #7e7d7d;
+    overflow: scroll;
+    padding: 1rem;
+    background-color: aliceblue;
+    margin: 0 auto;
+  }
+
+  div span.centered {
+    position: relative;
+    left: 22.5rem;
+    color: indianred;
+    font-size: 27px;
+    background-color: antiquewhite;
+  }
+
+  footer h2 {
+    margin-top: 1em;
+    color: indianred;
+    font-size: 31px;
+  }
+
+  footer div {
+    margin: 1em;
+    background-color: aliceblue;
+    color: darkcyan;
+    padding: 22px 9px;
+    font-size: 23px;
+  }
+
+  body nav h1 {
+    font-size: 3.4rem;
+    padding: 1rem;
+    color: indianred;
+    margin-top: auto;
+  }
+
+}
+
+@media (max-width:360px) {
+  body nav h1 {
+    font-size: 3rem;
+    /* padding: 1rem; */
+    color: indianred;
+    margin-top: auto;
+    width: 14em;
+  }
+
+  #tButton {
+    color: #0000008f;
+    background-color: #99cf99;
+    height: 4.5em;
+    width: 19em;
+    border-radius: 8px;
+    /* margin: 0 auto; */
+    /* font-weight: 600; */
+    margin: 3em 11em;
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+
+  #textarea {
+    display: block;
+    box-sizing: border-box;
+    padding: 1.2em 1em;
+    width: 148.35%;
+    /* margin: auto 4em; */
+    outline: none;
+    border: 2px solid #7e7d7d;
+    position: relative;
+    left: 2em;
+    height: 20vh;
+    margin-top: 0em;
+  }
+
+  #output {
+    display: block;
+    height: 16vh;
+    width: 143.25%;
+    border: 2px solid #7e7d7d;
+    overflow: scroll;
+    padding: 1rem;
+    background-color: aliceblue;
+    margin: 0 3.5em;
+    font-size: 24px;
+  }
+
+  footer {
+    margin-top: 3em;
+    width: 25em;
+    font-size: 28px;
+  }
+
+  div span.centered {
+    left: 13.5rem;
+  }
+
+  #textarea {
+    display: block;
+    box-sizing: border-box;
+    padding: 1.2em 1em;
+    width: 148.35%;
+    /* margin: auto 4em; */
+    outline: none;
+    border: 2px solid #7e7d7d;
+    position: relative;
+    left: 0em;
+    height: 20vh;
+    margin-top: 0em;
+    font-size: 24px;
   }
 
 }
