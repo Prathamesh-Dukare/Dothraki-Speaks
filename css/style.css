@@ -93,6 +93,116 @@ footer div {
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 /* Media Queries */
+/* A: General */
+@media (max-width:500px) and (min-width:400px) {
+  .hereis {
+    left: 9rem;
+    color: indianred;
+  }
+
+  #textarea {
+    width: 76.35%;
+    margin: auto -19em;
+  }
+}
+
+@media (max-width:700px) and (min-width:600px) {
+  .hereis {
+    left: 14rem;
+    color: indianred;
+  }
+
+  #textarea {
+    width: 76.35%;
+    margin: auto -19em;
+  }
+
+  #output {
+    width: 71.25%;
+    margin: 0 4rem;
+  }
+}
+
+@media (max-width:800px) {
+  .hereis {
+    left: 18rem;
+    color: indianred;
+  }
+
+  #textarea {
+    width: 64.35%;
+    margin: auto -14em;
+  }
+}
+@media (max-width:900px) {
+  .hereis {
+    left: 21rem;
+    color:indianred;
+  }
+
+  #textarea {
+    width: 60.35%;
+    margin: auto -13em;
+  }
+}
+@media (max-width:1000px) {
+  .hereis {
+    left: 23rem;
+    color:indianred;
+  }
+
+  #textarea {
+    width: 59.35%;
+    margin: auto -11em;
+  }
+}
+@media (max-width:1100px) {
+  .hereis {
+    left: 28rem;
+    color:indianred;
+  }
+
+  #textarea {
+    width: 44.35%;
+    margin: auto -4em;
+
+  }
+}
+@media (max-width:1200px) {
+  .hereis {
+    left: 32rem;
+    color:indianred;
+  }
+
+  #textarea {
+    width: 42.35%;
+    margin: auto -1em;
+  }
+}
+@media (max-width:1300px) {
+  .hereis {
+    left: 32rem;
+    color:indianred;
+  }
+
+  #textarea {
+    width: 42.35%;
+    margin: auto 0em;
+  }
+}
+@media (max-width:1400px) and (min-width:1300px) {
+  .hereis {
+    left: 32rem;
+    color:rgb(92, 205, 101);
+  }
+
+  #textarea {
+   
+  }
+}
+
+
+/* B:Specific */
 @media (width:1024px),
 (height:1366px) {
   #textarea {
@@ -163,8 +273,9 @@ footer div {
   }
 }
 
-@media (max-width:375px),
-(max-height:812px) {
+/* iphonex */
+@media (width:375px),
+(height:812px) {
   #textarea {
     margin: auto -21.5em;
     width: 85.35%;
@@ -178,5 +289,27 @@ footer div {
   .hereis {
     left: 6rem;
     color: indianred;
+  }
+}
+
+@media (max-width:395px) {
+  .hereis {
+    left: 6rem;
+    color: indianred;
+  }
+
+  #textarea {
+    width: 79.35%;
+    margin: auto -20em;
+  }
+
+  #output {
+    width: 72.25%;
+    margin: 0 2.5rem;
+  }
+}
+@media (max-width:400px){
+  body{
+    font-family: 'Times New Roman', Times, serif;
   }
 }
